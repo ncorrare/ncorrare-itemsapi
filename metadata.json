@@ -1,0 +1,14 @@
+{
+  "name": "ncorrare-itemsapi",
+  "version": "0.1.0",
+  "author": "ncorrare",
+  "summary": "An example of how to wrap Puppet Code around an API. They files itemsapi.rb contains an extremely simple API written on Sinatra, and this module provides the itemsapi define type, that takes just a title and an ensure parameter to create / delete items.",
+  "license": "Apache-2.0",
+  "source": "http://github.com/ncorrare/ncorrare-itemsapi",
+  "project_page": "https://github.com/ncorrare/ncorrare-itemsapi",
+  "issues_url": "https://github.com/ncorrare/ncorrare-itemsapi/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
